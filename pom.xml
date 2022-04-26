@@ -31,7 +31,6 @@
         <module>contact</module>
         <module>features</module>
         <module>studentrecord</module>
-        <module>startup</module>
     </modules>
 
 
