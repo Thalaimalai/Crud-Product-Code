@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<metadata>
+
+    <module name="module_crm_studentrecord">
+
+        <table name="StudentRecord">
+            <columns>
+                <column name="ID" data-type="BIGINT"/>
+                <column name="ROLLNUMBER" data-type="INTEGER" max-length="10" nullable="false"/>
+                <column name="NAME" data-type="CHAR" max-length="50" nullable="false"/>
+                <column name="DEPARTMENT_NAME" data-type="CHAR" max-length="50" nullable="false"/>
+                <column name="EMAIL" data-type="CHAR" max-length="60" nullable="false"/>
+            </columns>
+            <primary-key name="StudentRecord_PK" column="ID" sequence-generator="StudentRecord.ID" />
+        </table>
+
+    </module>
+
+</metadata>
