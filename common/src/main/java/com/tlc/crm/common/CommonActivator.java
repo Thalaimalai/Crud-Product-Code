@@ -8,7 +8,7 @@ import org.osgi.framework.BundleContext;
  * @author Abishek
  * @version 1.0
  */
-public class CommonActivator implements BundleActivator
+public class CommonActivator implements TlcBundleActivator
 {
     @Override
     public void start(BundleContext bundleContext)
