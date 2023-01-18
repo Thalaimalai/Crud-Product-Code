@@ -8,17 +8,14 @@ import org.osgi.framework.BundleContext;
  * @author Abishek
  * @version 1.0
  */
-public class CommonActivator implements TlcBundleActivator
-{
+public class CommonActivator implements TlcActivator {
+    
     @Override
-    public void start(BundleContext bundleContext)
-    {
-
+    public void start(BundleContext bundleContext) {
     }
 
     @Override
-    public void stop(BundleContext bundleContext)
-    {
+    public void stop(BundleContext bundleContext) {
         StructureHandler.get().clearCache();
     }
 }
